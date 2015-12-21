@@ -1,0 +1,7 @@
+<h1>hn-poller</h1>
+<p>Recently captured things:</p>
+<ul>
+  {{ range $key, $value := .items }}
+    <li>{{ $key }}:{{ $value }}</li>
+  {{ end }}
+</ul>
